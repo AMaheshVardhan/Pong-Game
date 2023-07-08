@@ -1,0 +1,37 @@
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore virtual environment files
+venv/
+env/
+
+# Ignore dependencies installed by pip
+requirements.txt
+pip-lock.txt
+
+# Ignore build files
+build/
+dist/
+*.egg-info/
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore any log files
+*.log
+
+# Ignore any generated assets or media files
+/assets/
+
+# Ignore any database files
+*.db
+
+# Ignore any secret or sensitive information
+secrets.ini
+config.ini
